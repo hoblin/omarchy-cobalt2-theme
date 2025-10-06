@@ -1,0 +1,105 @@
+# Cobalt2 theme for eza
+# Based on https://github.com/wesbos/cobalt2-vscode
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#ffffff"}
+  directory: {foreground: "#0088ff"}
+  symlink: {foreground: "#80fcff"}
+  pipe: {foreground: "#aaaaaa"}
+  block_device: {foreground: "#ff628c"}
+  char_device: {foreground: "#ff628c"}
+  socket: {foreground: "#aaaaaa"}
+  special: {foreground: "#fb94ff"}
+  executable: {foreground: "#3ad900"}
+  mount_point: {foreground: "#80fcff"}
+
+perms:
+  user_read: {foreground: "#ffc600"}
+  user_write: {foreground: "#ff628c"}
+  user_execute_file: {foreground: "#3ad900"}
+  user_execute_other: {foreground: "#3ad900"}
+  group_read: {foreground: "#ffc600"}
+  group_write: {foreground: "#ff628c"}
+  group_execute: {foreground: "#3ad900"}
+  other_read: {foreground: "#ffc600"}
+  other_write: {foreground: "#ff628c"}
+  other_execute: {foreground: "#3ad900"}
+  special_user_file: {foreground: "#fb94ff"}
+  special_other: {foreground: "#aaaaaa"}
+  attribute: {foreground: "#80fcff"}
+
+size:
+  major: {foreground: "#0088ff"}
+  minor: {foreground: "#80fcff"}
+  number_byte: {foreground: "#ffffff"}
+  number_kilo: {foreground: "#80fcff"}
+  number_mega: {foreground: "#0088ff"}
+  number_giga: {foreground: "#fb94ff"}
+  number_huge: {foreground: "#ff628c"}
+  unit_byte: {foreground: "#aaaaaa"}
+  unit_kilo: {foreground: "#80fcff"}
+  unit_mega: {foreground: "#0088ff"}
+  unit_giga: {foreground: "#fb94ff"}
+  unit_huge: {foreground: "#ff628c"}
+
+users:
+  user_you: {foreground: "#ffc600"}
+  user_root: {foreground: "#ff628c"}
+  user_other: {foreground: "#fb94ff"}
+  group_yours: {foreground: "#80fcff"}
+  group_other: {foreground: "#aaaaaa"}
+  group_root: {foreground: "#ff628c"}
+
+links:
+  normal: {foreground: "#80fcff"}
+  multi_link_file: {foreground: "#0088ff"}
+
+git:
+  new: {foreground: "#3ad900"}
+  modified: {foreground: "#ffc600"}
+  deleted: {foreground: "#ff628c"}
+  renamed: {foreground: "#80fcff"}
+  typechange: {foreground: "#fb94ff"}
+  ignored: {foreground: "#aaaaaa"}
+  conflicted: {foreground: "#ff9d00"}
+
+git_repo:
+  branch_main: {foreground: "#ffc600"}
+  branch_other: {foreground: "#fb94ff"}
+  git_clean: {foreground: "#3ad900"}
+  git_dirty: {foreground: "#ff628c"}
+
+security_context:
+  colon: {foreground: "#aaaaaa"}
+  user: {foreground: "#ffffff"}
+  role: {foreground: "#fb94ff"}
+  typ: {foreground: "#aaaaaa"}
+  range: {foreground: "#fb94ff"}
+
+file_type:
+  image: {foreground: "#ffc600"}
+  video: {foreground: "#ff628c"}
+  music: {foreground: "#3ad900"}
+  lossless: {foreground: "#80fcff"}
+  crypto: {foreground: "#aaaaaa"}
+  document: {foreground: "#ffffff"}
+  compressed: {foreground: "#fb94ff"}
+  temp: {foreground: "#ff9d00"}
+  compiled: {foreground: "#0088ff"}
+  build: {foreground: "#aaaaaa"}
+  source: {foreground: "#0088ff"}
+
+punctuation: {foreground: "#aaaaaa"}
+date: {foreground: "#80fcff"}
+inode: {foreground: "#0088ff"}
+blocks: {foreground: "#aaaaaa"}
+header: {foreground: "#ffffff"}
+octal: {foreground: "#80fcff"}
+flags: {foreground: "#fb94ff"}
+
+symlink_path: {foreground: "#80fcff"}
+control_char: {foreground: "#0088ff"}
+broken_symlink: {foreground: "#ff628c"}
+broken_path_overlay: {foreground: "#aaaaaa"}
