@@ -31,14 +31,18 @@ Once installed, press `Super + Ctrl + Shift + Space`, select "Cobalt2" and every
 This theme provides cohesive styling for all Omarchy components:
 
 - **Alacritty** (`alacritty.toml`) - Terminal with deep blue background and golden cursor
+- **Ghostty** (`ghostty.conf`) - Modern terminal with full Cobalt2 color palette
+- **Kitty** (`kitty.conf`) - GPU-accelerated terminal with golden tabs and borders
 - **btop** (`btop.theme`) - System monitor with vibrant Cobalt2 color gradients
+- **eza** (`eza.yml`) - File listing with consistent permission colors and syntax highlighting
 - **Hyprland** (`hyprland.conf`, `hyprlock.conf`) - Window manager and lock screen styling
 - **Mako** (`mako.ini`) - Notification daemon with signature yellow borders
 - **Neovim** (`neovim.lua`) - Full Cobalt2 colorscheme integration via cobalt2.nvim
+- **VS Code** (`vscode.json`) - Automatic theme switching to official Cobalt2 extension
 - **Waybar** (`waybar.css`) - Status bar theming
 - **Walker** (`walker.css`) - Application launcher styling
 - **SwayOSD** (`swayosd.css`) - On-screen display overlays
-- **Chromium** (`chromium.theme`) - Browser theming with deep blue frame (requires Omarchy dev branch)
+- **Chromium** (`chromium.theme`) - Browser theming with deep blue frame
 - **Icon Theme** (`icons.theme`) - Yaru-yellow icon set for file manager
 - **Backgrounds** - Curated wallpapers that complement the Cobalt2 aesthetic
 
