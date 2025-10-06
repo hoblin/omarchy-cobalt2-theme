@@ -2,7 +2,7 @@
 
 This is the **Cobalt2** Theme for [Omarchy.org](https://omarchy.org), providing a vibrant, developer-focused configuration set for your Linux desktop environment.
 
-![Theme Preview](https://hobl.in/omarchy-cobalt2-theme-preview.png)
+![Theme Preview](preview.png)
 
 > Deep blue depths where code comes alive,  
 > Golden highlights make syntax thrive.  
