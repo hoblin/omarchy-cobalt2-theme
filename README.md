@@ -34,7 +34,6 @@ This theme provides cohesive styling for all Omarchy components:
 - **Ghostty** (`ghostty.conf`) - Modern terminal with full Cobalt2 color palette
 - **Kitty** (`kitty.conf`) - GPU-accelerated terminal with golden tabs and borders
 - **btop** (`btop.theme`) - System monitor with vibrant Cobalt2 color gradients
-- **eza** (`eza.yml`) - File listing with consistent permission colors and syntax highlighting
 - **Hyprland** (`hyprland.conf`, `hyprlock.conf`) - Window manager and lock screen styling
 - **Mako** (`mako.ini`) - Notification daemon with signature yellow borders
 - **Neovim** (`neovim.lua`) - Full Cobalt2 colorscheme integration via cobalt2.nvim
