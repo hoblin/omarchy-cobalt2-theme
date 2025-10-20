@@ -37,6 +37,7 @@ This theme provides cohesive styling for all Omarchy components:
 - **Hyprland** (`hyprland.conf`, `hyprlock.conf`) - Window manager and lock screen styling
 - **Mako** (`mako.ini`) - Notification daemon with signature yellow borders
 - **Neovim** (`neovim.lua`) - Full Cobalt2 colorscheme integration via cobalt2.nvim
+- **Obsidian** (`obsidian.css`) - Note-taking app with Cobalt2 styling
 - **VS Code** (`vscode.json`) - Automatic theme switching to official Cobalt2 extension
 - **Waybar** (`waybar.css`) - Status bar theming
 - **Walker** (`walker.css`) - Application launcher styling
