@@ -2,7 +2,7 @@
 # By: hoblin
 
 # Main bg
-theme[main_bg]="#193549"
+theme[main_bg]="#122738"
 
 # Main text color
 theme[main_fg]="#ffffff"
