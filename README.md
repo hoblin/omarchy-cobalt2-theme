@@ -11,48 +11,50 @@ This is the **Cobalt2** Theme for [Omarchy.org](https://omarchy.org), providing 
 > The coder's canvas, both bold and true,  
 > Where yellow sparks dance in oceans of blue.
 
+## Compatibility
+
+Version 2 targets **Omarchy 4 (Quattro)** and newer. It relies on the `colors.toml` palette and the template-generated theme files that arrived with Omarchy 4, and it no longer ships configs for the 3.x components (hyprlock, hypridle, mako, waybar, walker, swayosd).
+
+On Omarchy 3.x, install the `v1` tag instead.
+
 ## Installation
 
-To install this theme, simply use the `omarchy-theme-install` command:
-
 ```bash
-omarchy-theme-install https://github.com/hoblin/omarchy-cobalt2-theme
+omarchy theme install https://github.com/hoblin/omarchy-cobalt2-theme
 ```
 
-Alternatively, you can install it via the Omarchy TUI:
-1. Press `Super + Alt + Space` to open the Omarchy menu
-2. Select `Install > Style > Theme`
-3. Paste the repository URL: `https://github.com/hoblin/omarchy-cobalt2-theme`
+Or from the Omarchy menu (`Super + Space`): _Install > Style > Theme_, then paste the repository URL.
 
-Once installed, press `Super + Ctrl + Shift + Space`, select "Cobalt2" and everything should refresh automatically.
+Once installed, pick "Cobalt2" under _Style > Theme_ and everything refreshes automatically.
 
 ## What's Included
 
-This theme provides cohesive styling for all Omarchy components:
+- **Palette** (`colors.toml`) — the single source every generated file is rendered from: terminals, Hyprland, the Omarchy shell (bar, menus, notifications, lock, polkit), btop, helix, Chromium, Neovim, VS Code, Obsidian, and more.
+- **Active-window gradient** — the signature yellow-to-blue border on the focused window. The same gradient flows into the shell's notification, popup, menu, lock and polkit borders.
+- **btop** (`btop.theme`) — hand-tuned Cobalt2 gradients for the system monitor.
+- **Obsidian** (`obsidian.css`) — note-taking app styling.
+- **Chromium** (`chromium.theme`) — deep blue browser frame.
+- **Icons** (`icons.theme`) — Yaru-yellow icon set.
+- **Boot screen** (`unlock.png`) — Plymouth unlock art in Cobalt2 colours, applied from _Style > Unlock_.
+- **Backgrounds** — curated wallpapers that complement the Cobalt2 aesthetic.
 
-- **Alacritty** (`alacritty.toml`) - Terminal with deep blue background and golden cursor
-- **Ghostty** (`ghostty.conf`) - Modern terminal with full Cobalt2 color palette
-- **Kitty** (`kitty.conf`) - GPU-accelerated terminal with golden tabs and borders
-- **btop** (`btop.theme`) - System monitor with vibrant Cobalt2 color gradients
-- **Hyprland** (`hyprland.conf`, `hyprlock.conf`) - Window manager and lock screen styling
-- **Mako** (`mako.ini`) - Notification daemon with signature yellow borders
-- **Neovim** (`neovim.lua`) - Full Cobalt2 colorscheme integration via cobalt2.nvim
-- **Obsidian** (`obsidian.css`) - Note-taking app with Cobalt2 styling
-- **VS Code** (`vscode.json`) - Automatic theme switching to official Cobalt2 extension
-- **Waybar** (`waybar.css`) - Status bar theming
-- **Walker** (`walker.css`) - Application launcher styling
-- **SwayOSD** (`swayosd.css`) - On-screen display overlays
-- **Chromium** (`chromium.theme`) - Browser theming with deep blue frame
-- **Icon Theme** (`icons.theme`) - Yaru-yellow icon set for file manager
-- **Backgrounds** - Curated wallpapers that complement the Cobalt2 aesthetic
+The repository also carries hand-written **Alacritty**, **Ghostty**, **Kitty**, **Neovim** and **VS Code** files. They keep the golden cursor, and for Neovim and VS Code they select the real Cobalt2 colorschemes ([cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) and [Wes Bos's extension](https://github.com/wesbos/cobalt2-vscode)).
+
+Omarchy only applies those five from a theme it trusts. A theme cloned with `omarchy theme install` is not, so there they are regenerated from the palette instead, and Omarchy names the dropped files when the theme is set. To use them, clone the repository yourself and symlink it into place:
+
+```bash
+git clone https://github.com/hoblin/omarchy-cobalt2-theme ~/Work/omarchy-cobalt2-theme
+ln -s ~/Work/omarchy-cobalt2-theme ~/.config/omarchy/themes/cobalt2
+```
 
 ## Theme Colors
 
 The Cobalt2 theme is built around these signature colors:
 
-- **Primary Background**: `#193549` (Deep Blue)
-- **Secondary Background**: `#122738` (Darker Blue)
+- **Background**: `#122738` (Deep Blue)
+- **Lighter Background**: `#193549` (Cobalt Blue)
 - **Accent**: `#ffc600` (Bright Yellow/Gold)
+- **Selection**: `#0050a4` (Cobalt)
 - **Text**: `#ffffff` (Pure White)
 - **Syntax Highlights**: Various blues, cyans, oranges, and pinks for rich code highlighting
 
