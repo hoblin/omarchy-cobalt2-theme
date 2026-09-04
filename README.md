@@ -15,7 +15,11 @@ This is the **Cobalt2** Theme for [Omarchy.org](https://omarchy.org), providing 
 
 Version 2 targets **Omarchy 4 (Quattro)** and newer. It relies on the `colors.toml` palette and the template-generated theme files that arrived with Omarchy 4, and it no longer ships configs for the 3.x components (hyprlock, hypridle, mako, waybar, walker, swayosd).
 
-On Omarchy 3.x, install the `v1` tag instead.
+On Omarchy 3.x, use the `v1` tag instead:
+
+```bash
+git clone --branch v1 https://github.com/hoblin/omarchy-cobalt2-theme ~/.config/omarchy/themes/cobalt2
+```
 
 ## Installation
 
