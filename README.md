@@ -39,7 +39,7 @@ Once installed, pick "Cobalt2" under _Style > Theme_ and everything refreshes au
 - **Obsidian** (`obsidian.css`) — note-taking app styling.
 - **Chromium** (`chromium.theme`) — deep blue browser frame.
 - **Icons** (`icons.theme`) — Yaru-yellow icon set.
-- **Boot screen** (`unlock.png`) — Plymouth unlock art in Cobalt2 colours, applied from _Style > Unlock_.
+- **Boot screen** (`unlock.png`) — Plymouth unlock art: cobalt's periodic-table tile, element 27, reading Co₂. Applied from _Style > Unlock_.
 - **Backgrounds** — curated wallpapers that complement the Cobalt2 aesthetic.
 
 The repository also carries hand-written **Alacritty**, **Ghostty**, **Kitty**, **Neovim** and **VS Code** files. They keep the golden cursor, and for Neovim and VS Code they select the real Cobalt2 colorschemes ([cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) and [Wes Bos's extension](https://github.com/wesbos/cobalt2-vscode)).
