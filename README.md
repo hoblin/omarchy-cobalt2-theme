@@ -38,7 +38,7 @@ Once installed, pick "Cobalt2" under _Style > Theme_ and everything refreshes au
 - **btop** (`btop.theme`) — hand-tuned Cobalt2 gradients for the system monitor.
 - **Obsidian** (`obsidian.css`) — note-taking app styling.
 - **Chromium** (`chromium.theme`) — deep blue browser frame.
-- **Icons** (`icons.theme`) — Yaru-blue icon set. Its folder blue sits on the palette's `#0088ff`; Yaru-yellow's amber never matched the theme's yellow.
+- **Icons** (`icons.theme`) — Yaru-blue icon set.
 - **Boot screen** (`unlock.png`) — Plymouth unlock art: cobalt's periodic-table tile, element 27, reading Co₂. Applied from _Style > Unlock_.
 - **Backgrounds** — curated wallpapers that complement the Cobalt2 aesthetic.
 
